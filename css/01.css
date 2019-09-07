@@ -1,0 +1,989 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			
+			ul,ol,li{
+				list-style: none ;
+			}
+			b,strong{
+				font-weight: normal;
+			}
+			i,em{
+				font-style: normal;
+			}
+			u,a{
+				text-decoration: none;
+			}
+			h1,h2.h3,h4,h5,h6{
+				font-size: 16px;font-weight: normal;
+			}
+			input{
+				outline: none;
+			}
+			#top{
+				width: 1600px;
+				height: 50px;
+				background:hotpink;
+			}
+			.top-cont{
+				width: 1000px;
+				height: 50px;
+				margin: 0 auto;
+				background: pink;
+				font-size: 14px;
+				position: relative;
+			
+			
+			}
+			.left{
+				width:700px;
+				height: 50px;
+				float: left;
+								 
+			}
+			.left li{
+				float:left;
+				padding:14px  0 0 40px;
+				
+			}
+			.left li a{
+				color: black;
+			}
+			#right{
+				width: 250px;
+				height: 50px;
+				float: left;
+				
+			}
+			#right li{
+				float:left;
+			    padding:14px 0 0 40px;
+			   	
+			}
+			#right li a{
+				color: black;
+			}
+			#second{
+				width: 1000px;
+				height: 200px;
+				margin: 0 auto;
+			}
+			#logo-left{
+				width:260px;
+				height: 160px;
+				float: left;
+				padding-top: 20px;
+				padding-left:40px;
+			}
+			#input-right{
+				width: 700px;
+				height: 180px;
+				float: right;
+			}
+			input{
+                  			
+				position: relative;
+			       top:60px;
+			       left:90px;
+			}
+			input[type="flower"]{
+				width:500px ;
+				height:30px ;
+				padding-left: 4px;
+			     border:1px solid pink; 
+			     
+			    
+			}
+			#search{
+				width:50px;
+				height:32px ;
+				border: 1px solid pink;
+				background: pink;
+				left:593px;
+				top:28px;
+			}
+			#right-buttom{
+				width: 500px;
+				height: 20px;
+				position: relative;
+				top:40px;
+				left: 100px;
+				font-size: 12px;
+			}
+			#right-buttom a{
+				float: left;
+				padding:0 10px ;
+			}
+            #choose{
+            	width: 1000px;
+            	height: 50px;
+            	position: relative;
+                left: 300px;
+                font-size: 12px;
+                background: pink;
+            }
+            .choose-left{
+            	width: 400px;
+            	height: 80px;
+            	float: left;;
+            }
+            .jiage{
+            	position: relative;
+            	top:20px;
+            	left: 10px;
+            }
+            #number01{
+            	width: 40px;
+            	position: relative;
+            	left: 40px;
+                 top:2px;
+               
+            }
+            .middle{
+            	position: relative;
+            	top: -16px;
+            	left: 90px;
+            }
+            #number02{
+            	width: 40px;
+            	position: relative;
+            	left: 110px;
+            	top:-34px;
+            	
+            }
+            #address{
+            	width: 60px;
+            	position: relative;
+            	left: 140px;
+                 top:-34px;
+                 font-size: 12px;
+                 font-family: "微软雅黑";
+                 
+            }
+             
+             #checkbox01{
+             	float:left;
+             	position: relative;
+             	top: -34px;
+             	left: 340px;
+             	float: left;
+             	background: aqua;
+             }
+             #choose-right{
+            	width: 600px;
+            	height: 80px;
+            	float: left;
+            	position: relative;
+            }
+            #checkbox01{
+            	position: relative;
+            	top: 20px;
+            	left: 200px;;
+            }
+            #baoyou{
+            	position: relative;
+            	top: 18px;
+            	left: 200px;
+            	display:inline-block;
+            }
+            
+            #checkbox02{
+            	position: relative;
+            	top: 20px;
+            	left: 240px;
+            }
+            #zhengpin{
+            	position: relative;
+            	top: 18px;
+            	left: 240px;
+            	display:inline-block;
+            }
+            #checkbox03{
+            	position: relative;
+            	top: 20px;
+            	left: 260px;
+            }
+            #qitian{
+            	position: relative;
+            	top: 18px;
+            	left: 260px;
+            	display:inline-block;
+            }
+            #checkbox04{
+            	position: relative;
+            	top: 20px;
+            	left: 280px;
+            }
+            #xiaofei{
+            	position: relative;
+            	top: 18px;
+            	left: 280px;
+            	display:inline-block;
+            }
+            
+             
+             #image01{
+             	width: 1000px;
+             	height: 238px;
+             	position: relative;
+             	top: 10px;
+             	left: 300px; 
+             	font-size: 12px;
+             	line-height: 24px;
+             }
+             
+             #image01-01{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	position: absolute;
+                left:10px;
+               
+             }
+             #image01-01-top{
+             	width: 178px;
+             	height: 179px;
+             	
+             }
+             #image01-01-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image01-01-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image01-01-bottom p{
+             	display: inline-block;
+             }
+             .baoyou01{
+             	font-size: 12px;
+             	background:pink ;
+                display: inline-block;
+            float: right;
+             }
+           
+            #image01-02{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+                position: absolute;
+                left: 210px;
+             }
+             #image01-02-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image01-02-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image01-02-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image01-02-bottom p{
+             	display: inline-block;
+             }
+            
+             #image01-03{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 410px;
+             }
+             #image01-03-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image01-03-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image01-03-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image01-03-bottom p{
+             	display: inline-block;
+             }
+             
+             
+             #image01-04{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 610px;
+                }
+             #image01-04-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image01-04-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image01-04-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image01-04-bottom p{
+             	display: inline-block;
+             }
+             
+             #image01-05{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 810px;
+             }
+             #image01-05-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image01-05-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image01-05-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image01-05-bottom p{
+             	display: inline-block;
+             }
+             /*
+              * 第二行div
+              
+              */
+             #image02{
+             	width: 1000px;
+             	height: 238px;
+             	position: relative;
+             	left: 300px; 
+             	top: 20px;
+             	font-size: 12px;
+             	line-height: 24px;
+             }
+             #image02-01{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	position: absolute;
+                left:10px;
+             }
+             #image02-01-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image02-01-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image02-01-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image02-01-bottom p{
+             	display: inline-block;
+             }
+           
+           
+            #image02-02{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+                position: absolute;
+                left: 210px;
+             }
+             #image02-02-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image02-02-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image02-02-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image02-02-bottom p{
+             	display: inline-block;
+             }
+            
+             #image02-03{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 410px;
+             }
+             #image02-03-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image02-03-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image02-03-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image02-03-bottom p{
+             	display: inline-block;
+             }
+             
+             
+             #image02-04{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 610px;
+                }
+             #image02-04-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image02-04-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image02-04-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image02-04-bottom p{
+             	display: inline-block;
+             }
+             
+             #image02-05{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 810px;
+             }
+             #image02-05-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image02-05-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image02-05-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image02-05-bottom p{
+             	display: inline-block;
+             }
+             /*第三行图片*/
+                #image03{
+             	width: 1000px;
+             	height: 238px;
+             	position: relative;
+             	left: 300px; 
+             	top: 30px;
+             	font-size: 12px;
+             	line-height: 24px;
+             }
+             #image03-01{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	position: absolute;
+                left:10px;
+             }
+             #image03-01-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image03-01-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image03-01-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image03-01-bottom p{
+             	display: inline-block;
+             }
+           
+           
+            #image03-02{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+                position: absolute;
+                left: 210px;
+             }
+             #image03-02-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image03-02-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image03-02-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image03-02-bottom p{
+             	display: inline-block;
+             }
+            
+             #image03-03{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 410px;
+             }
+             #image03-03-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image03-03-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image03-03-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image03-03-bottom p{
+             	display: inline-block;
+             }
+             
+             
+             #image03-04{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 610px;
+                }
+             #image03-04-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image03-04-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image03-04-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image03-04-bottom p{
+             	display: inline-block;
+             }
+             
+             #image03-05{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 810px;
+             }
+             #image03-05-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image03-05-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image03-05-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image03-05-bottom p{
+             	display: inline-block;
+             }
+              
+             
+             
+             
+             
+             
+             
+             /*第四行图片*/
+              #image04{
+             	width: 1000px;
+             	height: 238px;
+             	position: relative;
+             	left: 300px; 
+             	top: 40px;
+             	font-size: 12px;
+             	line-height: 24px;
+             }
+             #image04-01{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	position: absolute;
+                left:10px;
+             }
+             #image04-01-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image04-01-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image04-01-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image04-01-bottom p{
+             	display: inline-block;
+             }
+           
+           
+            #image04-02{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+                position: absolute;
+                left: 210px;
+             }
+             #image04-02-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image04-02-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image04-02-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image04-02-bottom p{
+             	display: inline-block;
+             }
+            
+             #image04-03{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 410px;
+             }
+             #image04-03-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image04-03-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image04-03-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image04-03-bottom p{
+             	display: inline-block;
+             }
+             
+             
+             #image04-04{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 610px;
+                }
+             #image04-04-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image04-04-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image04-04-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image04-04-bottom p{
+             	display: inline-block;
+             }
+             
+             #image04-05{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 810px;
+             }
+             #image04-05-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image04-05-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image04-05-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image04-05-bottom p{
+             	display: inline-block;
+             }
+              /*第五行*、
+              
+               */
+              #image05{
+             	width: 1000px;
+             	height: 238px;
+             	position: relative;
+             	left: 300px; 
+             	top: 50px;
+             	font-size: 12px;
+             	line-height: 24px;
+             }
+             #image05-01{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	position: absolute;
+                left:10px;
+             }
+             #image05-01-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image05-01-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image05-01-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image05-01-bottom p{
+             	display: inline-block;
+             }
+           
+           
+            #image05-02{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+                position: absolute;
+                left: 210px;
+             }
+             #image05-02-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image05-02-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image04-02-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image05-02-bottom p{
+             	display: inline-block;
+             }
+            
+             #image05-03{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 410px;
+             }
+             #image05-03-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image05-03-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image05-03-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image05-03-bottom p{
+             	display: inline-block;
+             }
+             
+             
+             #image05-04{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 610px;
+                }
+             #image05-04-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image05-04-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image05-04-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image05-04-bottom p{
+             	display: inline-block;
+             }
+             
+             #image05-05{
+             	width:178px;
+             	height: 238px;
+             	border: 1px solid pink;
+             	display: inline-block;
+                position: absolute;
+                left: 810px;
+             }
+             #image05-05-top{
+             	width: 178px;
+             	height: 179px;
+             }
+             #image05-05-top img{
+             	width: 178px;
+             	height: 180px;
+             }
+             #image05-05-bottom{
+             	width: 178px;
+             	height: 58px;
+             }
+             #image05-05-bottom p{
+             	display: inline-block;
+             }
+             #next{
+             	width: 1000px;
+             	height: 80px;
+             	margin: 0 auto;
+             	top: 60px;
+                 left: 300px;
+                 font-size: 14px;
+             	display: inline-block;
+             	position: relative;
+             	background: pink;
+             }
+           #page01{
+           	width: 30px;
+           	height: 30px;
+           	background:light gray;
+           	position: relative;
+           	left: 300px;
+           	top: 20px;
+           }
+           #page02{
+           	width: 30px;
+           	height: 30px;
+           	background: light gray;
+           	position: relative;
+           	left: 300px;
+           	top: 20px;
+           }
+           #page03{
+           	width: 30px;
+           	height: 30px;
+           	background: light gray;
+           	position: relative;
+           	left: 300px;
+           	top: 20px;
+           }
+           #page04{
+           	width: 50px;
+           	height: 30px;
+           	background: light gray;
+           	position: relative;
+           	left: 300px;
+           	top: 20px;
+           }
+           
+           #page{
+            position: absolute;
+           	left: 480px;
+           	top: 26px;
+           }
+           #pagego{
+            position: absolute;
+           	left: 540px;
+           	top: 26px;
+           }
+           #textpage{
+           	width: 40px;
+           	height: 30px;
+           	position: relative;
+           	padding-left: 8px;
+           	background: light gray;
+           	left: 420px;
+           	top: 16px;
+           }
+           #pagepage{
+            position: absolute;
+           	left: 640px;
+           	top: 26px;
+           }
+            #page05{
+           	width: 50px;
+           	height: 30px;
+           	background: light gray;
+           	position: relative;
+           	left: 460px;
+           	top: 20px;
+           }
+
+        #kong{
+             	width: 1000px;
+             	height: 80px;
+             	margin: 0 auto;
+             	position: relative;
+             	top: 60px;
+                 left: 300px;
+             	display: inline-block;
+             }
+             #contact{
+             	width: 200px;
+             	height: 200px;
+             	border: 1px solid pink;
+             	position: fixed;
+             	top: 300px;
+             	right: 0;
+             }
+              #contact img{
+              	width: 200px;
+             	height:200px;
+             	
+              }
